@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.Titulo{
+    color: cadetblue;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.titulo{
+    color: cadetblue;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* Header */
+
+header{
+    width: 100%;
+    height: 600px;
+    background: #74ebd5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(165, 19%, 50%, 0.719), hsla(177, 78%, 73%, 0.521)), url(../img/portada\ 5.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, hsla(165, 19%, 50%, 0.719), hsla(177, 78%, 73%, 0.521)), url(../img/portada\ 5.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav{
+    text-align: center;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header h1{
+    font-size: 50px;
+    color: #fff;
+}
+
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.mapa{
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+
+.contact-headings h2{
+    font-size: 3em;
+}
+
+.Contenedor-de-contacto{
+    padding: 3em;
+    margin: 0 auto;
+}
+
+.Form-control{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2em;
+}
+
+.Form-control input{
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #034b3f;
+    color: #414141;
+}
+
+.Form-control textarea{
+    height: 150px;
+    background: none;
+    color: #414141;
+    padding: 1.5em;
+    border: 1px solid #034b3f;
+}
+
+.Btn-enviar{
+    padding: 10px 20px;
+    margin: 1em;
+    border: none;
+    text-transform: uppercase;
+    background-color: #74ebd5;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, .69);
+}
+
+.Btn-enviar:hover{
+    background-color: rgb(191, 247, 239);
+    box-shadow: none;
+}
+
+/* footer */
+
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #3ec4ad;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #ccc;
+}
+
+.Titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
